@@ -7,6 +7,7 @@ This project aims to contain everything you will ever need on your website:
 - user logon and authorisation & socialauth.
 - forms, forms, forms in every variant you need
 - a webshop: Speckcommerce
+- several samples for pages that do edit table-contents (like StickyNotes)
 - a blog
 - a forum
 - webservices and apps

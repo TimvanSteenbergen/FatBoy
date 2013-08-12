@@ -31,7 +31,8 @@ Feel free to fork this and give me a pull-request to add some stuff that was sti
     
     What we did to add it:
     - in composer.json we added '"zf-commons/zfc-user" : "dev-master",' and ran comoposer;
-    - added file 'config\zfcuser.global.php'
+    - added file 'config\zfcuser.global.php';
+    - created table 'user' in the database.
 
 Which module will be next? Let's do authorization (what is this user allowed to do?). What is your choice for Authorization? 
 Let us know.

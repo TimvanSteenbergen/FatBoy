@@ -17,14 +17,20 @@ This project is the opposite of the well-known skeleton. In contrast to the Skel
 you need, this project will give you everything possible and you have to strip out all you don't need.
 
 Feel free to fork this and give me a pull-request to add some stuff that was still missing or comments on what you think of it. 
+ 
+  
+    Authentication: ZfcUser
+    ZfcUser has become our choice for authentication.
+    
+    What does it do: 
+    - adds a page '/user' enabling anyone to log in or register via mail or userid.
+    
+    Don't want it? Do this to remove it:
+    - in application.config.php comment out the lines 'ZfcUser' and 'ZfcBase'.
+    - remove file 'config\zfcuser.global.php'
+    
+    What we did to add it:
+    - in composer.json we added '"zf-commons/zfc-user" : "dev-master",' and ran comoposer;
+    - added file 'config\zfcuser.global.php'
 
-Authentication: ZfcUser
-ZfcUser has become our choice for authentication.
-What does it do:
-- adds a page '/user' enabling anyone to log in or register via mail or userid.
-Don't want it? Do this to remove it:
-- in application.config.php comment out the lines 'ZfcUser' and 'ZfcBase'.
-- remove file 'config\zfcuser.global.php'
-What we did to add it:
-- in composer.json we added '"zf-commons/zfc-user" : "dev-master",' and ran comoposer;
-- added file 'config\zfcuser.global.php'
+Which module will be next? Let's do authorization. What is your choice for Authorisation? Let us know.

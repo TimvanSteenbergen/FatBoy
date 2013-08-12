@@ -19,8 +19,8 @@ you need, this project will give you everything possible and you have to strip o
 Feel free to fork this and give me a pull-request to add some stuff that was still missing or comments on what you think of it. 
  
   
-    Authentication: ZfcUser
-    ZfcUser has become our choice for authentication.
+    Authentication: ZfcUser (source: https://github.com/ZF-Commons/ZfcUser)
+    ZfcUser has become our choice for authentication (who is this user?).
     
     What does it do: 
     - adds a page '/user' enabling anyone to log in or register via mail or userid.
@@ -33,4 +33,4 @@ Feel free to fork this and give me a pull-request to add some stuff that was sti
     - in composer.json we added '"zf-commons/zfc-user" : "dev-master",' and ran comoposer;
     - added file 'config\zfcuser.global.php'
 
-Which module will be next? Let's do authorization. What is your choice for Authorisation? Let us know.
+Which module will be next? Let's do authorization (what is this user allowed to do?). What is your choice for Authorization? Let us know.

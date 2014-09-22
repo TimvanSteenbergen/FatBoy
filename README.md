@@ -11,7 +11,7 @@ This project aims to contain everything you will ever need on your website:
 - a blog
 - a forum
 - webservices and apps
-- ... other nice goodies
+- ... other nice goodies like adding a ckeditor https://github.com/Celtico/QuCKEditor
 
 This project is the opposite of the well-known skeleton. In contrast to the Skeleton, where you have to add all extra's 
 you need, this project will give you everything possible and you have to strip out all you don't need.

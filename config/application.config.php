@@ -4,7 +4,7 @@ return array(
     'modules' => array(
         'Application',
         'Form',
-        'StrokerForm',
+//        'StrokerForm',
         'Table',
     ),
 

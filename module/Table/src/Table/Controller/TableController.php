@@ -12,7 +12,7 @@ namespace Table\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-class TablesController extends AbstractActionController
+class TableController extends AbstractActionController
 {
     public function indexAction()
     {

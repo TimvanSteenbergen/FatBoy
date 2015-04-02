@@ -5,6 +5,7 @@ return array(
         'Application',
         'Form',
         'StrokerForm',
+        'Table',
     ),
 
     // These are various options for the listeners attached to the ModuleManager

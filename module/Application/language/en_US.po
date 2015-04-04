@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-04 11:46+0100\n"
-"PO-Revision-Date: 2015-04-04 16:52+0100\n"
+"POT-Creation-Date: 2015-04-04 22:43+0100\n"
+"PO-Revision-Date: 2015-04-04 22:43+0100\n"
 "Last-Translator: Tim van Steenbergern <tim@tieka.nl>\n"
 "Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
 "Language: en_US\n"
@@ -16,22 +16,17 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../view/application/index/index.phtml:2
-#, php-format
-msgid "Welcome to %sZend Framework 2%s"
-msgstr "This is Zend Framework 2's %sFatBoy%s"
-
-#: ../view/application/index/index.phtml:3
 msgid "Fatboys title"
 msgstr "This is Zend Framework 2's %sFatBoy%s"
 
-#: ../view/application/index/index.phtml:4
+#: ../view/application/index/index.phtml:3
 msgid "Fatboys mission subtitle"
 msgstr ""
 "The mission of this repository is setting up your website with every "
 "functionality you will ever need and all this while using the best Zend "
 "Framework 2 Modules."
 
-#: ../view/application/index/index.phtml:5
+#: ../view/application/index/index.phtml:4
 msgid "Fatboys mission explainModules"
 msgstr ""
 "Every module that is here provided is already up-and-running. All you have "
@@ -39,23 +34,22 @@ msgstr ""
 "repositories that other brilliant programmers created and maintain. FatBoy "
 "implemented them for you and demo's their use."
 
-#: ../view/application/index/index.phtml:6
-#: ../view/application/index/index.phtml:7
+#: ../view/application/index/index.phtml:5
 msgid "Fatboys mission explainExtensions"
 msgstr ""
 "Is some module almost perfect but you want add some functionality? Then go "
 "ahead and extend the module. <br/>Do it well and you can even get your "
 "moment of fame by getting your work merged into the module."
 
-#: ../view/application/index/index.phtml:11
-msgid "Fork Zend Framework 2 on GitHub"
-msgstr "Fork Zend Framework 2 on GitHub"
+#: ../view/application/index/index.phtml:7
+msgid "Fork Zend Framework 2 FatBoy on GitHub"
+msgstr "Fork FatBoy on GitHub"
 
-#: ../view/application/index/index.phtml:17
+#: ../view/application/index/index.phtml:13
 msgid "Follow Development"
 msgstr "Follow Development"
 
-#: ../view/application/index/index.phtml:18
+#: ../view/application/index/index.phtml:14
 #, php-format
 msgid ""
 "Zend Framework 2 is under active development. If you are interested in "
@@ -70,15 +64,15 @@ msgstr ""
 "%sdev blog%s, %sissue tracker%s, and much more. This is a great resource for "
 "staying up to date with the latest developments!"
 
-#: ../view/application/index/index.phtml:19
+#: ../view/application/index/index.phtml:15
 msgid "ZF2 Development Portal"
 msgstr "ZF2 Development Portal"
 
-#: ../view/application/index/index.phtml:23
+#: ../view/application/index/index.phtml:19
 msgid "Discover Modules"
 msgstr "Discover Modules"
 
-#: ../view/application/index/index.phtml:24
+#: ../view/application/index/index.phtml:20
 #, php-format
 msgid ""
 "The community is working on developing a community site to serve as a "
@@ -91,15 +85,15 @@ msgstr ""
 "%s. The site is currently live and currently contains a list of some of the "
 "modules already available for ZF2."
 
-#: ../view/application/index/index.phtml:25
+#: ../view/application/index/index.phtml:21
 msgid "Explore ZF2 Modules"
 msgstr "Explore ZF2 Modules"
 
-#: ../view/application/index/index.phtml:29
+#: ../view/application/index/index.phtml:25
 msgid "Help &amp; Support"
 msgstr "Help &amp; Support"
 
-#: ../view/application/index/index.phtml:30
+#: ../view/application/index/index.phtml:26
 #, php-format
 msgid ""
 "If you need any help or support while developing with ZF2, you may reach us "
@@ -112,7 +106,7 @@ msgstr ""
 "feedback you may have regarding the beta releases. Alternatively, you may "
 "subscribe and post questions to the %smailing lists%s."
 
-#: ../view/application/index/index.phtml:31
+#: ../view/application/index/index.phtml:27
 msgid "Ping us on IRC"
 msgstr "Ping us on IRC"
 
@@ -213,6 +207,12 @@ msgstr ""
 #: ../view/layout/layout.phtml:50
 msgid "All rights reserved."
 msgstr "All rights reserved."
+
+#~ msgid "Welcome to %sZend Framework 2%s"
+#~ msgstr "This is Zend Framework 2's %sFatBoy%s"
+
+#~ msgid "Fork Zend Framework 2 on GitHub"
+#~ msgstr "Fork Zend Framework 2 on GitHub"
 
 #~ msgid "Fatboys mission"
 #~ msgstr ""

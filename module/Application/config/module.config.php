@@ -20,6 +20,46 @@ return array(
                     ),
                 ),
             ),
+            'content1' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/content1',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action'     => 'content1',
+                    ),
+                ),
+            ),
+            'content2' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/content2',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action'     => 'content2',
+                    ),
+                ),
+            ),
+            'content3' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/content3',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action'     => 'content3',
+                    ),
+                ),
+            ),
+            'configure' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/configure',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action'     => 'configure',
+                    ),
+                ),
+            ),
             // The following is a route to simplify getting started creating
             // new controllers and actions without needing to create a new
             // module. Simply drop new controllers in, and you can access them
@@ -90,9 +130,10 @@ return array(
     ),
     'module_listener_options' => array(
             // The key used to create the configuration cache file name.
-        'config_cache_key' => 'Form',
+        'config_cache_key' => 'Application',
 
         // The key used to create the class map cache file name.
-        'module_map_cache_key' => 'Form',
+        'module_map_cache_key' => 'Application',
+
     ),
 );

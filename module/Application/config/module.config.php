@@ -88,4 +88,11 @@ return array(
             __DIR__ . '/../view',
         ),
     ),
+    'module_listener_options' => array(
+            // The key used to create the configuration cache file name.
+        'config_cache_key' => 'Form',
+
+        // The key used to create the class map cache file name.
+        'module_map_cache_key' => 'Form',
+    ),
 );

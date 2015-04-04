@@ -1,0 +1,31 @@
+<div class="hero-unit">
+    <h1><?php echo sprintf($this->translate('Welcome to %sZend Framework 2%s'), '<span class="zf-green">', '</span>') ?></h1>
+    <p><?php echo sprintf($this->translate('Congratulations! You have successfully installed the %sZF2 Forms module Application%s. You are currently running Zend Framework version %s. This Fatboy can serve as a simple starting point for you to begin building your application on ZF2.'), '<a href="http://www.tieka.nl/FatBoy" target="_blank">', '</a>', \Zend\Version\Version::VERSION) ?></p>
+    <p><?php echo sprintf($this->translate('Used modules:')) ?></p>
+    <ul>
+        <li>DluTwBootstrap - adding Twitter Bootstrap to Zf2 forms</li>
+        <li>Bram Stroker's Form - a fieldset</li>
+    </ul>
+
+</div>
+
+<div class="row">
+
+    <div class="span4">
+        <h2><?php echo $this->translate('Simple Forms') ?></h2>
+        <p><?php echo sprintf($this->translate('This section is giving examples of some simple forms')) ?></p>
+        <p><a class="btn btn-success" href="http://framework.zend.com/zf2" target="_blank"><?php echo $this->translate('ZF2 Development Portal') ?> &raquo;</a></p>
+    </div>
+
+    <div class="span4">
+        <h2><?php echo $this->translate('Table maintenance Forms') ?></h2>
+        <p><?php echo sprintf($this->translate('some forms that give you options for simple table maintenance')) ?></p>
+        <p><a class="btn btn-success" href="http://modules.zendframework.com/" target="_blank"><?php echo $this->translate('Explore ZF2 Modules') ?> &raquo;</a></p>
+   </div>
+
+   <div class="span4">
+       <h2><?php echo $this->translate('Help &amp; Support') ?></h2>
+       <p><?php echo sprintf($this->translate('If you need any help or support while developing with ZF2, you may reach us via IRC: %s#zftalk on Freenode%s. We\'d love to hear any questions or feedback you may have regarding the beta releases. Alternatively, you may subscribe and post questions to the %smailing lists%s.'), '<a href="irc://irc.freenode.net/zftalk">', '</a>', '<a href="http://framework.zend.com/wiki/display/ZFDEV/Mailing+Lists">', '</a>') ?></p>
+       <p><a class="btn btn-success" href="http://webchat.freenode.net?channels=zftalk" target="_blank"><?php echo $this->translate('Ping us on IRC') ?> &raquo;</a></p>
+   </div>
+</div>

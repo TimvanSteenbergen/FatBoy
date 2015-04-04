@@ -1,0 +1,37 @@
+{
+    "name": "stroker/form",
+    "description": "ZF2 module for extending forms with live clientside validation",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "jquery validate",
+        "form",
+        "validation",
+        "zend framework 2",
+        "module"
+    ],
+    "authors": [
+        {
+            "name": "Bram Gerritsen",
+            "email": "bgerritsen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.3.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "StrokerForm": "src/",
+            "StrokerFormTest": "tests/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}

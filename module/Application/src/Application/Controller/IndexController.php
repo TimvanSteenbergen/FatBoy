@@ -19,17 +19,17 @@ class IndexController extends AbstractActionController
         return new ViewModel();
     }
 
-    public function content1Action()
+    public function myTextAction()
     {
         return new ViewModel();
     }
 
-    public function content2Action()
+    public function myBlogAction()
     {
         return new ViewModel();
     }
 
-    public function content3Action()
+    public function myAnythingAction()
     {
         return new ViewModel();
     }

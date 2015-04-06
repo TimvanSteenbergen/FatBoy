@@ -20,33 +20,33 @@ return array(
                     ),
                 ),
             ),
-            'content1' => array(
+            'myText' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
-                    'route'    => '/content1',
+                    'route'    => '/myText',
                     'defaults' => array(
                         'controller' => 'Application\Controller\Index',
-                        'action'     => 'content1',
+                        'action'     => 'myText',
                     ),
                 ),
             ),
-            'content2' => array(
+            'myBlog' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
-                    'route'    => '/content2',
+                    'route'    => '/myBlog',
                     'defaults' => array(
                         'controller' => 'Application\Controller\Index',
-                        'action'     => 'content2',
+                        'action'     => 'myBlog',
                     ),
                 ),
             ),
-            'content3' => array(
+            'myAnything' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
-                    'route'    => '/content3',
+                    'route'    => '/myAnything',
                     'defaults' => array(
                         'controller' => 'Application\Controller\Index',
-                        'action'     => 'content3',
+                        'action'     => 'myAnything',
                     ),
                 ),
             ),

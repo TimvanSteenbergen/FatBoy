@@ -40,3 +40,6 @@ div.container a.brand {
 .hero-unit h1 {
     font-size: 30px;
 }
+footer{
+    clear: both;
+}

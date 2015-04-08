@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4" />
+<project version="4">
+  <component name="PublishConfigData" uploadOnCheckin="53b423bc-e150-4a24-9a15-e376d628471c">
+    <serverData>
+      <paths name="FatBoy">
+        <serverdata>
+          <mappings>
+            <mapping deploy="\" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="FatBoy op tieka.nl/zf2project">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/domains/tieka.nl/public_html/zf2fatboyproject" local="$PROJECT_DIR$" web="/zf2fatboyproject/public" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="FatBoy op tieka.nl/zf2project" />
+  </component>
+</project>

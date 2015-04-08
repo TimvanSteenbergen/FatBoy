@@ -51,6 +51,8 @@ crashlytics-build.properties
 # Composer files
 composer.phar
 vendor/
+.buildpath/
+.project/
 
 # Local configs
 config/autoload/*.local.php

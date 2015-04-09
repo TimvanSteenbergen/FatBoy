@@ -7,6 +7,7 @@ $config = array(
         'Form',
 //        'StrokerForm',
 //        'Table',
+        'Taglist',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
@@ -67,9 +68,7 @@ $config = array(
    // 'service_manager' => array(),
 );
 
-if ($env == 'development') {
-//    $config['modules'][] = 'ZendDeveloperTools';
+//if ($env == 'development') {
     $config['modules'][] = 'Table';
-}
-
+//}
 return $config;

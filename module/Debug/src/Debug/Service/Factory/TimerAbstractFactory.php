@@ -30,6 +30,7 @@ class TimerAbstractFactory implements AbstractFactoryInterface
     public function createServiceWithName(ServiceLocatorInterface $services, $name, $requestedName)
     {
         $config = $services->get('config');
-        $timer = new TimerService($config)
-    }
+        $timer = new Timer($config);
+        return $timer;
+	}
 }

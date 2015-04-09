@@ -7,7 +7,7 @@ $config = array(
         'Form',
 //        'StrokerForm',
 //        'Table',
-        'Taglist',
+        'Taglist','SelectOptionTree',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
@@ -18,7 +18,7 @@ $config = array(
         // Module class.
         'module_paths' => array(
             './module',
-            './vendor',
+            './vendor','./module',
         ),
 
         // An array of paths from which to glob configuration files after

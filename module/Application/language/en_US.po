@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-06 22:17+0100\n"
-"PO-Revision-Date: 2015-04-06 23:13+0100\n"
+"POT-Creation-Date: 2015-04-09 06:42+0100\n"
+"PO-Revision-Date: 2015-04-09 06:49+0100\n"
 "Last-Translator: Tim van Steenbergern <tim@tieka.nl>\n"
 "Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
 "Language: en_US\n"
@@ -15,162 +15,25 @@ msgstr ""
 "X-Generator: Poedit 1.7.5\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../view/application/index/content1.phtml:2
-msgid "Content1 title"
-msgstr "Your page's title"
+#: ../view/application/index/configure.phtml:2
+msgid "Configure title"
+msgstr ""
 
-#: ../view/application/index/content1.phtml:3
-msgid "Content1 subtitle"
-msgstr "Your page's subtitle"
+#: ../view/application/index/configure.phtml:3
+msgid "Configure subtitle"
+msgstr ""
 
-#: ../view/application/index/content1.phtml:4
-msgid "Content1 content"
-msgstr "Your pages content. Make it pretty."
+#: ../view/application/index/configure.phtml:4
+msgid "Configure paragraph"
+msgstr ""
 
-#: ../view/application/index/content1.phtml:6
-#: ../view/application/index/content2.phtml:6
-#: ../view/application/index/content3.phtml:6
+#: ../view/application/index/configure.phtml:6
 #: ../view/application/index/index.phtml:7
+#: ../view/application/index/my-anything.phtml:6
+#: ../view/application/index/my-blog.phtml:6
+#: ../view/application/index/my-text.phtml:6
 msgid "Fork Zend Framework 2 FatBoy on GitHub"
 msgstr "Fork FatBoy on GitHub"
-
-#: ../view/application/index/content1.phtml:12
-#: ../view/application/index/content2.phtml:12
-msgid "Follow Development"
-msgstr "Follow Development"
-
-#: ../view/application/index/content1.phtml:13
-#: ../view/application/index/content2.phtml:13
-#, php-format
-msgid ""
-"Zend Framework 2 is under active development. If you are interested in "
-"following the development of ZF2, there is a special ZF2 portal on the "
-"official Zend Framework website which provides links to the ZF2 %swiki%s, "
-"%sdev blog%s, %sissue tracker%s, and much more. This is a great resource for "
-"staying up to date with the latest developments!"
-msgstr ""
-"Zend Framework 2 is under active development. If you are interested in "
-"following the development of ZF2, there is a special ZF2 portal on the "
-"official Zend Framework website which provides links to the ZF2 %swiki%s, "
-"%sdev blog%s, %sissue tracker%s, and much more. This is a great resource for "
-"staying up to date with the latest developments!"
-
-#: ../view/application/index/content1.phtml:14
-#: ../view/application/index/content2.phtml:14
-msgid "ZF2 Development Portal"
-msgstr "ZF2 Development Portal"
-
-#: ../view/application/index/content1.phtml:18
-#: ../view/application/index/content2.phtml:18
-msgid "Discover Modules"
-msgstr "Discover Modules"
-
-#: ../view/application/index/content1.phtml:19
-#: ../view/application/index/content2.phtml:19
-#, php-format
-msgid ""
-"The community is working on developing a community site to serve as a "
-"repository and gallery for ZF2 modules. The project is available %son GitHub"
-"%s. The site is currently live and currently contains a list of some of the "
-"modules already available for ZF2."
-msgstr ""
-"The community is working on developing a community site to serve as a "
-"repository and gallery for ZF2 modules. The project is available %son GitHub"
-"%s. The site is currently live and currently contains a list of some of the "
-"modules already available for ZF2."
-
-#: ../view/application/index/content1.phtml:20
-#: ../view/application/index/content2.phtml:20
-msgid "Explore ZF2 Modules"
-msgstr "Explore ZF2 Modules"
-
-#: ../view/application/index/content1.phtml:24
-#: ../view/application/index/content2.phtml:24
-msgid "Help &amp; Support"
-msgstr "Help &amp; Support"
-
-#: ../view/application/index/content1.phtml:25
-#: ../view/application/index/content2.phtml:25
-#, php-format
-msgid ""
-"If you need any help or support while developing with ZF2, you may reach us "
-"via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
-"feedback you may have regarding the beta releases. Alternatively, you may "
-"subscribe and post questions to the %smailing lists%s."
-msgstr ""
-"If you need any help or support while developing with ZF2, you may reach us "
-"via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
-"feedback you may have regarding the beta releases. Alternatively, you may "
-"subscribe and post questions to the %smailing lists%s."
-
-#: ../view/application/index/content1.phtml:26
-#: ../view/application/index/content2.phtml:26
-msgid "Ping us on IRC"
-msgstr "Ping us on IRC"
-
-#: ../view/application/index/content2.phtml:2
-msgid "Content2 title"
-msgstr "Your second page's title"
-
-#: ../view/application/index/content2.phtml:3
-msgid "Content2 subtitle"
-msgstr "Your second page's subtitle"
-
-#: ../view/application/index/content2.phtml:4
-msgid "Content2 content"
-msgstr "Your second pages content. Make it pretty."
-
-#: ../view/application/index/content3.phtml:2
-msgid "Content3 title"
-msgstr "Your third page's title"
-
-#: ../view/application/index/content3.phtml:3
-msgid "Content3 subtitle"
-msgstr "Your third page's subtitle"
-
-#: ../view/application/index/content3.phtml:4
-msgid "Content3 content"
-msgstr "Your third pages content. Make it pretty."
-
-#: ../view/application/index/content3.phtml:12
-msgid "UseIt title"
-msgstr "Add content and: Use it!"
-
-#: ../view/application/index/content3.phtml:13
-#: ../view/application/index/index.phtml:14
-msgid "Use It paragraph"
-msgstr ""
-"Just add content to page MyText, MyBlog and MyAnything and you site will be "
-"ready for use WITHOUT touching any code!!<br/>As easy to get up-and-running "
-"as Wordpress, but knowing that this is a far more thourough codebase and "
-"that your application has a better chance to live longer and prosper."
-
-#: ../view/application/index/content3.phtml:18
-#: ../view/application/index/index.phtml:19
-msgid "Evolve FatBoy title"
-msgstr "Fatboy matures"
-
-#: ../view/application/index/content3.phtml:19
-#: ../view/application/index/index.phtml:20
-msgid "Evolve FatBoy paragraph"
-msgstr ""
-"Todo's: <ul><li>add auth&auth</li><li>add navigation's second level</"
-"li><li>add stickynotes to edit content-pages</li><li>add forms to the form "
-"module</li><li>add table editing modules</li><ul>"
-
-#: ../view/application/index/content3.phtml:24
-#: ../view/application/index/index.phtml:25
-msgid "Help and Support title"
-msgstr "Get&Give Support"
-
-#: ../view/application/index/content3.phtml:25
-#: ../view/application/index/index.phtml:26
-msgid "Help and Support paragraph"
-msgstr ""
-"Feel free to ask about Fatboy, about how it can help you and your customers "
-"to get a website with every functionality that ZF2 has to offer.But also, "
-"see if you can add whatever you feel that is missing and for which you have "
-"a solution. Make us happy with pretty code in a pull request."
 
 #: ../view/application/index/index.phtml:2
 msgid "Fatboys title"
@@ -201,6 +64,168 @@ msgstr ""
 #: ../view/application/index/index.phtml:13
 msgid "Use It title"
 msgstr "Use it!"
+
+#: ../view/application/index/index.phtml:14
+msgid "Use It paragraph"
+msgstr ""
+"Just add content to page MyText, MyBlog and MyAnything and you site will be "
+"ready for use WITHOUT touching any code!!<br/>As easy to get up-and-running "
+"as Wordpress, but knowing that this is a far more thourough codebase and "
+"that your application has a better chance to live longer and prosper."
+
+#: ../view/application/index/index.phtml:19
+msgid "Evolve FatBoy title"
+msgstr "Fatboy matures"
+
+#: ../view/application/index/index.phtml:20
+msgid "Evolve FatBoy paragraph"
+msgstr ""
+"Todo's: <ul><li>add auth&auth</li><li>add navigation's second level</"
+"li><li>Make navigationbar auto-add modules'navbaritems</li><li>add "
+"stickynotes to edit content-pages</li><li>add forms to the form module</"
+"li><li>add table editing modules</li><li>add a database</li><ul>"
+
+#: ../view/application/index/index.phtml:25
+msgid "Help and Support title"
+msgstr "Get&Give Support"
+
+#: ../view/application/index/index.phtml:26
+msgid "Help and Support paragraph"
+msgstr ""
+"Feel free to ask about Fatboy, about how it can help you and your customers "
+"to get a website with every functionality that ZF2 has to offer.But also, "
+"see if you can add whatever you feel that is missing and for which you have "
+"a solution. Make us happy with pretty code in a pull request."
+
+#: ../view/application/index/my-anything.phtml:2
+msgid "MyAnything title"
+msgstr "Anything else?"
+
+#: ../view/application/index/my-anything.phtml:3
+msgid "MyAnything subtitle"
+msgstr ""
+"Webshop, forum, questionaires? Whatever we can think of and find! "
+"Possibilities are endless."
+
+#: ../view/application/index/my-anything.phtml:4
+msgid "MyAnything content"
+msgstr "Statemachines? Analytics-module Piwik? Technical stuff?"
+
+#: ../view/application/index/my-anything.phtml:12
+#: ../view/application/index/my-blog.phtml:12
+#: ../view/application/index/my-text.phtml:12
+msgid "Follow Development"
+msgstr "Follow Development"
+
+#: ../view/application/index/my-anything.phtml:13
+#: ../view/application/index/my-blog.phtml:13
+#: ../view/application/index/my-text.phtml:13
+#, php-format
+msgid ""
+"Zend Framework 2 is under active development. If you are interested in "
+"following the development of ZF2, there is a special ZF2 portal on the "
+"official Zend Framework website which provides links to the ZF2 %swiki%s, "
+"%sdev blog%s, %sissue tracker%s, and much more. This is a great resource for "
+"staying up to date with the latest developments!"
+msgstr ""
+"Zend Framework 2 is under active development. If you are interested in "
+"following the development of ZF2, there is a special ZF2 portal on the "
+"official Zend Framework website which provides links to the ZF2 %swiki%s, "
+"%sdev blog%s, %sissue tracker%s, and much more. This is a great resource for "
+"staying up to date with the latest developments!"
+
+#: ../view/application/index/my-anything.phtml:14
+#: ../view/application/index/my-blog.phtml:14
+#: ../view/application/index/my-text.phtml:14
+msgid "ZF2 Development Portal"
+msgstr "ZF2 Development Portal"
+
+#: ../view/application/index/my-anything.phtml:18
+#: ../view/application/index/my-blog.phtml:18
+#: ../view/application/index/my-text.phtml:18
+msgid "Discover Modules"
+msgstr "Discover Modules"
+
+#: ../view/application/index/my-anything.phtml:19
+#: ../view/application/index/my-blog.phtml:19
+#: ../view/application/index/my-text.phtml:19
+#, php-format
+msgid ""
+"The community is working on developing a community site to serve as a "
+"repository and gallery for ZF2 modules. The project is available %son GitHub"
+"%s. The site is currently live and currently contains a list of some of the "
+"modules already available for ZF2."
+msgstr ""
+"The community is working on developing a community site to serve as a "
+"repository and gallery for ZF2 modules. The project is available %son GitHub"
+"%s. The site is currently live and currently contains a list of some of the "
+"modules already available for ZF2."
+
+#: ../view/application/index/my-anything.phtml:20
+#: ../view/application/index/my-blog.phtml:20
+#: ../view/application/index/my-text.phtml:20
+msgid "Explore ZF2 Modules"
+msgstr "Explore ZF2 Modules"
+
+#: ../view/application/index/my-anything.phtml:24
+#: ../view/application/index/my-blog.phtml:24
+#: ../view/application/index/my-text.phtml:24
+msgid "Help &amp; Support"
+msgstr "Help &amp; Support"
+
+#: ../view/application/index/my-anything.phtml:25
+#: ../view/application/index/my-blog.phtml:25
+#: ../view/application/index/my-text.phtml:25
+#, php-format
+msgid ""
+"If you need any help or support while developing with ZF2, you may reach us "
+"via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+"feedback you may have regarding the beta releases. Alternatively, you may "
+"subscribe and post questions to the %smailing lists%s."
+msgstr ""
+"If you need any help or support while developing with ZF2, you may reach us "
+"via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+"feedback you may have regarding the beta releases. Alternatively, you may "
+"subscribe and post questions to the %smailing lists%s."
+
+#: ../view/application/index/my-anything.phtml:26
+#: ../view/application/index/my-blog.phtml:26
+#: ../view/application/index/my-text.phtml:26
+msgid "Ping us on IRC"
+msgstr "Ping us on IRC"
+
+#: ../view/application/index/my-blog.phtml:2
+msgid "MyBlog title"
+msgstr "My Blog"
+
+#: ../view/application/index/my-blog.phtml:3
+msgid "MyBlog subtitle"
+msgstr ""
+"This page will compare the best available blog-modules that are available."
+
+#: ../view/application/index/my-blog.phtml:4
+msgid "MyBlog content"
+msgstr ""
+"How? By configuring the module blog, you will see one blog now, and another "
+"when you select a different one."
+
+#: ../view/application/index/my-text.phtml:2
+msgid "MyText title"
+msgstr ""
+"Your page for editing texts and objects and in future dragging and dropping "
+"stuff."
+
+#: ../view/application/index/my-text.phtml:3
+msgid "MyText subtitle"
+msgstr "This is one demo-page with all kinds texts and objects."
+
+#: ../view/application/index/my-text.phtml:4
+msgid "MyText content"
+msgstr ""
+"<p>Todo add: <ul><li>Text-area's that can get modified with the right "
+"authorisation</li><li>Pictures that can get modified with the right "
+"authorisation</li></ul></p><p>Modules to add: <ul><li>Stickynotes - for REST-"
+"full editing</li><li>datatables for editing modules</li></ul></p>"
 
 #: ../view/error/404.phtml:1
 msgid "A 404 error occurred"
@@ -277,7 +302,7 @@ msgid "Home"
 msgstr "Home"
 
 #: ../view/layout/layout.phtml:36
-msgid "MyTextContent"
+msgid "MyText"
 msgstr ""
 
 #: ../view/layout/layout.phtml:37
@@ -288,33 +313,70 @@ msgstr ""
 msgid "MyAnything"
 msgstr ""
 
-#: ../view/layout/layout.phtml:40
+#: ../view/layout/layout.phtml:39
 msgid "Configure"
 msgstr ""
 
-#: ../view/layout/layout.phtml:42
+#: ../view/layout/layout.phtml:41
 msgid "Forms"
 msgstr ""
 
-#: ../view/layout/layout.phtml:43
+#: ../view/layout/layout.phtml:42
 msgid "Tables"
 msgstr ""
 
-#: ../view/layout/layout.phtml:44
+#: ../view/layout/layout.phtml:43
 msgid "Shops"
 msgstr ""
 
-#: ../view/layout/layout.phtml:45
+#: ../view/layout/layout.phtml:44
 msgid "Blogs"
 msgstr ""
 
-#: ../view/layout/layout.phtml:46
+#: ../view/layout/layout.phtml:45
 msgid "Elearning"
 msgstr ""
 
-#: ../view/layout/layout.phtml:57
+#: ../view/layout/layout.phtml:58
 msgid "All rights reserved."
 msgstr "All rights reserved."
+
+#~ msgid "Content1 title"
+#~ msgstr "Your page's title"
+
+#~ msgid "Content1 subtitle"
+#~ msgstr "Your page's subtitle"
+
+#~ msgid "Content1 content"
+#~ msgstr "Your pages content. Make it pretty."
+
+#~ msgid "Content2 title"
+#~ msgstr "Your second page's title"
+
+#~ msgid "Content2 subtitle"
+#~ msgstr "Your second page's subtitle"
+
+#~ msgid "Content2 content"
+#~ msgstr "Your second pages content. Make it pretty."
+
+#~ msgid "Content3 title"
+#~ msgstr "Your third page's title"
+
+#~ msgid "Content3 subtitle"
+#~ msgstr "Your third page's subtitle"
+
+#~ msgid "Content3 content"
+#~ msgstr "Your third pages content. Make it pretty."
+
+#~ msgid "UseIt title"
+#~ msgstr "Add content and: Use it!"
+
+#~ msgid "MyTextContent"
+#~ msgstr ""
+#~ "<p>Todo add: <ul><li>Text-area's that can get modified with the right "
+#~ "authorisation</li><li>Pictures that can get modified with the right "
+#~ "authorisation</li></ul></p><p>Modules to add: <ul><li>Stickynotes - for "
+#~ "REST-full editing</li><li>datatables for editing modules</li></ul></p>"
 
 #~ msgid "Welcome to %sZend Framework 2%s"
 #~ msgstr "This is Zend Framework 2's %sFatBoy%s"

@@ -1,11 +1,12 @@
 <?php
-return array(
+$env = getenv('APP_ENV') ?: 'production';
+$config = array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
         'Application',
         'Form',
 //        'StrokerForm',
-        'Table',
+//        'Table',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
@@ -41,7 +42,7 @@ return array(
 
         // The key used to create the class map cache file name.
         'module_map_cache_key' => 'Application',
-        
+
         // The path in which to cache merged configuration.
         'cache_dir' => 'data/cache',
 
@@ -65,3 +66,10 @@ return array(
    // Should be compatible with Zend\ServiceManager\Config.
    // 'service_manager' => array(),
 );
+
+if ($env == 'development') {
+//    $config['modules'][] = 'ZendDeveloperTools';
+    $config['modules'][] = 'Table';
+}
+
+return $config;

@@ -3,12 +3,6 @@ $config = array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
         'Application',
-        'Form',
-//        'StrokerForm',
-        'Table',
-        'Taglist',
-        'SelectOptionTree',
-        'StickyNotes',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
@@ -70,6 +64,13 @@ $config = array(
 );
 
 if (getenv('APPLICATION_ENV') == 'development') {
-    $config['modules'][] = 'Table';
+    $config['modules'][] = array(
+        'Form',
+//        'StrokerForm',
+        'Table',
+        'Taglist',
+        'SelectOptionTree',
+        'StickyNotes',
+'Table');
 }
 return $config;

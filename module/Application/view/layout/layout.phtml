@@ -19,11 +19,15 @@
                     <li><a href="<?php echo $this->url('myAnything') ?>"><?php echo $this->translate('MyAnything') ?></a></li>
                     <li><a href="<?php echo $this->url('configure') ?>"><?php echo $this->translate('Configure') ?></a>
 <!--                        <ul class="navs">-->
-                            <li><a href="<?php echo $this->url('form') ?>"><?php echo $this->translate('Forms') ?></a></li>
+<?php
+//show develop-links only if this is your develop-environment
+if (getenv("APPLICATION_ENV") =="development"):?>
+                    <li><a href="<?php echo $this->url('form') ?>"><?php echo $this->translate('Forms') ?></a></li>
                             <li><a href="<?php echo $this->url('table') ?>"><?php echo $this->translate('Tables') ?></a></li>
                             <li><a href="<?php //echo $this->url('shop') ?>"><?php echo $this->translate('Shops') ?></a></li>
                             <li><a href="<?php //echo $this->url('blog') ?>"><?php echo $this->translate('Blogs') ?></a></li>
                             <li><a href="<?php //echo $this->url('elearning') ?>"><?php echo $this->translate('Elearning') ?></a></li>
+                    <?php endif; ?>
 <!--                        </ul>-->
                     </li>
                 </ul>

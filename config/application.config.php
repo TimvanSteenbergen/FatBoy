@@ -64,13 +64,12 @@ $config = array(
 );
 
 if (getenv('APPLICATION_ENV') == 'development') {
-    $config['modules'][] = array(
+    $config['modules'] = array_merge($config['modules'], array(
         'Form',
-//        'StrokerForm',
         'Table',
         'Taglist',
         'SelectOptionTree',
-        'StickyNotes',
-'Table');
+        'StickyNotes'));
+//        'StrokerForm',
 }
 return $config;

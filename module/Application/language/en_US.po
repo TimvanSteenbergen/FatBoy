@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-09 06:42+0100\n"
-"PO-Revision-Date: 2015-04-09 06:49+0100\n"
+"PO-Revision-Date: 2015-04-10 22:04+0100\n"
 "Last-Translator: Tim van Steenbergern <tim@tieka.nl>\n"
 "Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
 "Language: en_US\n"
@@ -17,15 +17,20 @@ msgstr ""
 
 #: ../view/application/index/configure.phtml:2
 msgid "Configure title"
-msgstr ""
+msgstr "Site configuration"
 
 #: ../view/application/index/configure.phtml:3
 msgid "Configure subtitle"
-msgstr ""
+msgstr "Here you configure your site. No programming, just configuring."
 
 #: ../view/application/index/configure.phtml:4
 msgid "Configure paragraph"
 msgstr ""
+"<p>Adding content to the site will be able to get done in place. Changing "
+"the logo, the text on MyText, MyBlog and MyAnything should be done on the "
+"spot.</p>Other options, like login-possibilities yes/no, i18n settings yes/"
+"no, server-db-connection-settings, Companyinformation can all get entered "
+"here in a form."
 
 #: ../view/application/index/configure.phtml:6
 #: ../view/application/index/index.phtml:7

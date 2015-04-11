@@ -1,13 +1,14 @@
 <?php
-$env = getenv('APP_ENV') ?: 'production';
 $config = array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
         'Application',
         'Form',
 //        'StrokerForm',
-//        'Table',
-        'Taglist','SelectOptionTree',
+        'Table',
+        'Taglist',
+        'SelectOptionTree',
+        'StickyNotes',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
@@ -68,7 +69,7 @@ $config = array(
    // 'service_manager' => array(),
 );
 
-//if ($env == 'development') {
+if (getenv('APPLICATION_ENV') == 'development') {
     $config['modules'][] = 'Table';
-//}
+}
 return $config;

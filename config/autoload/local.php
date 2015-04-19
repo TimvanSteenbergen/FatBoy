@@ -22,9 +22,14 @@ return array(
     //'cache_dir' =>  './data/cache',
     // ...
 
+//    //userid and password, valid on both tieka-production and localhost
+//    'db' => array(
+//            'username' => 'fatboytieka',
+//            'password' => 'zf2fatboy.',
+//            ),
     //userid and password, valid on both tieka-production and localhost
     'db' => array(
             'username' => 'fatboytieka',
             'password' => 'zf2fatboy.',
-            )
+            ),
 );

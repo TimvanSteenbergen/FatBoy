@@ -26,13 +26,13 @@ return array(
  */
 
     'db' => array(
-//Production database for connection from www.thepaintgame
         'driver' => 'Pdo',
-        'dsn' => 'mysql:dbname=fatboy;host=devel.tieka.nl',
 
-//Testdatabase for connection from localhost:80/ThePaintGame
-//         'dsn' => 'mysql:dbname=fatboy;host=localhost',
+//Production database for connection from www.thepaintgame
+//        'dsn' => 'mysql:dbname=fatboy;host=devel.tieka.nl',
 
+//Testdatabase for connection from localhost:80/fatboy
+         'dsn' => 'mysql:dbname=fatboy;host=localhost',
     ),
 
     'service_manager' => array(

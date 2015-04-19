@@ -2,11 +2,19 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/module/StickyNotes/config" />
+      <excludeFolder url="file://$MODULE_DIR$/module/StickyNotes/src" />
+      <excludeFolder url="file://$MODULE_DIR$/module/StickyNotes/tests" />
+      <excludeFolder url="file://$MODULE_DIR$/module/StickyNotes/view" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dlu/dlutwbootstrap" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/stroker/form" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-escaper" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zendframework" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zendxml" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zf-commons/zfc-admin" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zf-commons/zfc-base" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zf-commons/zfc-user" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -23,21 +31,28 @@
     <orderEntry type="module-library">
       <library name="PHP">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/zendframework/zendxml" />
-          <root url="file://$MODULE_DIR$/vendor/zendframework/zendframework" />
-          <root url="file://$MODULE_DIR$/vendor/stroker/form" />
-          <root url="file://$MODULE_DIR$/vendor/dlu/dlutwbootstrap" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-escaper" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/zf-commons/zfc-admin" />
+          <root url="file://$MODULE_DIR$/vendor/stroker/form" />
+          <root url="file://$MODULE_DIR$/vendor/zf-commons/zfc-base" />
+          <root url="file://$MODULE_DIR$/vendor/zf-commons/zfc-user" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zendframework" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zendxml" />
+          <root url="file://$MODULE_DIR$/vendor/dlu/dlutwbootstrap" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/zendframework/zendxml" />
-          <root url="file://$MODULE_DIR$/vendor/zendframework/zendframework" />
-          <root url="file://$MODULE_DIR$/vendor/stroker/form" />
-          <root url="file://$MODULE_DIR$/vendor/dlu/dlutwbootstrap" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-escaper" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/zf-commons/zfc-admin" />
+          <root url="file://$MODULE_DIR$/vendor/stroker/form" />
+          <root url="file://$MODULE_DIR$/vendor/zf-commons/zfc-base" />
+          <root url="file://$MODULE_DIR$/vendor/zf-commons/zfc-user" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zendframework" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zendxml" />
+          <root url="file://$MODULE_DIR$/vendor/dlu/dlutwbootstrap" />
         </SOURCES>
       </library>
     </orderEntry>
   </component>
 </module>
-

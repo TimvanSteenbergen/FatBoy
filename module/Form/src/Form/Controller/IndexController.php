@@ -11,14 +11,26 @@ namespace Form\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
+use StickyNotes\Model\StickyNotesTable as StickyNotesTable;
 
 class IndexController extends AbstractActionController
 {
+    /** @var StickyNotes\Model\StickyNotesTable $stickyNotesTable*/
+    protected $stickyNotesTable;
     public function indexAction()
     {
-        return new ViewModel();
+        return new ViewModel(array(
+            'stickynote15' => $this->getStickyNotesTable()->getStickyNote([15]),
+        ));
     }
 
+    public function getStickyNotesTable() {
+        if (!$this->stickyNotesTable) {
+            $sm = $this->getServiceLocator();
+            $this->stickyNotesTable = $sm->get('StickyNotes\Model\StickyNotesTable');
+        }
+        return $this->stickyNotesTable;
+    }
     public function simpleTableAction()
     {
     }

@@ -1,4 +1,7 @@
-<div class="hero-unit">
+<?php
+$this->headScript()->appendFile('./js/stickynotes.js');
+// /StickfNotes/view/sticky-notes/sticky-notes/index.phtml
+?><div class="hero-unit">
     <h1><?php echo sprintf($this->translate('Welcome to %sZend Framework 2%s'), '<span class="zf-green">', '</span>') ?></h1>
     <p><?php echo sprintf($this->translate('Congratulations! You have successfully installed the %sZF2 Forms module Application%s. You are currently running Zend Framework version %s. This Fatboy can serve as a simple starting point for you to begin building your application on ZF2.'), '<a href="http://www.tieka.nl/FatBoy" target="_blank">', '</a>', \Zend\Version\Version::VERSION) ?></p>
     <p><?php echo sprintf($this->translate('Used modules:')) ?></p>
@@ -22,6 +25,12 @@
     <div class="span4">
         <h2><?php echo $this->translate('Table maintenance Forms') ?></h2>
         <p><?php echo sprintf($this->translate('some forms that give you options for simple table maintenance')) ?></p>
+        <div id="sticky-notes">
+            <div class="sticky-note">
+                <textarea><?php echo $stickynote15 ?></textarea>
+            </div>
+        </div>
+
         <p><a class="btn btn-success" href="http://modules.zendframework.com/" target="_blank"><?php echo $this->translate('Explore ZF2 Modules') ?> &raquo;</a></p>
    </div>
 

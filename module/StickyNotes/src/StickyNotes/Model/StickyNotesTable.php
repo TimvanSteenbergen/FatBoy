@@ -18,8 +18,6 @@ class StickyNotesTable extends AbstractTableGateway {
         $resultSet = $this->select(function ( $select) {
                     $select->order('created ASC');
                 });
-//        print_r($resultSet);
-//        die();
         $entities = array();
         foreach ($resultSet as $row) {
             $entity = new Entity\StickyNote();

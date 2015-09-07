@@ -19,9 +19,14 @@ class IndexController extends AbstractActionController
     protected $stickyNotesTable;
     public function indexAction()
     {
-        return new ViewModel(array(
-            'stickynote15' => $this->getStickyNotesTable()->getStickyNote([15]),
-        ));
+        try {
+            $result = new ViewModel(array(
+                'stickynote1' => $this->getStickyNotesTable()->getStickyNote([1]),
+            ));
+        }
+        catch(\Exception $e){
+            Echo 'no database connection';
+        }
     }
 
     public function getStickyNotesTable() {

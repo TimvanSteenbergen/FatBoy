@@ -15,7 +15,7 @@
     "dlu/dlutwbootstrap": "dev-master",
     "zf-commons/zfc-admin": "dev-master",
     "zf-commons/zfc-user": "dev-master",
-    "zf-commons/zfc-base": ">=0.1.1"
+    "zf-commons/zfc-base": ">=0.1.1",
+    "shashikant/sticky-notes": "0.1-dev"
   }
 }
-

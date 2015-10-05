@@ -29,10 +29,10 @@ return array(
         'driver' => 'Pdo',
 
 //Production database for connection from www.thepaintgame
-//        'dsn' => 'mysql:dbname=fatboy;host=devel.tieka.nl',
+        'dsn' => 'mysql:dbname=fatboy;host=devel.tieka.nl',
 
 //Testdatabase for connection from localhost:80/fatboy
-         'dsn' => 'mysql:dbname=fatboy;host=localhost',
+//         'dsn' => 'mysql:dbname=fatboy;host=localhost',
     ),
 
     'service_manager' => array(

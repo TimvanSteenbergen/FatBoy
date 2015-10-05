@@ -1,8 +1,12 @@
 <?php 
-// module/StickyNotes/src/StickyNotes/Model/Entity/StickyNote.php
 
 namespace StickyNotes\Model\Entity;
 
+/**
+ * Class StickyNote
+ * module/StickyNotes/src/StickyNotes/Model/Entity/StickyNote.php
+ * @package StickyNotes\Model\Entity
+ */
 class StickyNote {
 
     protected $_id;

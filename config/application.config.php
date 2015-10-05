@@ -63,7 +63,7 @@ $config = array(
    // 'service_manager' => array(),
 );
 
-if (getenv('APPLICATION_ENV') == 'development') {
+//if (getenv('APPLICATION_ENV') == 'development') {
     $config['modules'] = array_merge($config['modules'], array(
         'Form',
         'Table',
@@ -71,5 +71,5 @@ if (getenv('APPLICATION_ENV') == 'development') {
         'SelectOptionTree',
         'StickyNotes'));
 //        'StrokerForm',
-}
+//}
 return $config;

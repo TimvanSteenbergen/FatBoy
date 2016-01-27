@@ -21,7 +21,7 @@
 <!--                        <ul class="navs">-->
 <?php
 //show develop-links only if this is your develop-environment
-if (getenv("APPLICATION_ENV") =="development"):?>
+if (getenv("APPLICATION_ENV") !=="production"):?>
                     <li><a href="<?php echo $this->url('form') ?>"><?php echo $this->translate('Forms') ?></a></li>
                             <li><a href="<?php echo $this->url('table') ?>"><?php echo $this->translate('Tables') ?></a></li>
                             <li><a href="<?php //echo $this->url('shop') ?>"><?php echo $this->translate('Shops') ?></a></li>

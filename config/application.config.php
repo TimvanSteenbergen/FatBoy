@@ -63,11 +63,10 @@ $config = array(
    // 'service_manager' => array(),
 );
 
-define('APPLICATION_ENV', 'production');
 //define('APPLICATION_ENV',
 //(getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV')
-//    : 'production'));
-if (getenv('APPLICATION_ENV') == 'development') {
+//    : 'development'));
+if (getenv('APPLICATION_ENV') !== 'production') {
     $config['modules'] = array_merge($config['modules'], array(
         'Form',
         'Table',

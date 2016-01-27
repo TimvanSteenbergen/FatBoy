@@ -63,7 +63,11 @@ $config = array(
    // 'service_manager' => array(),
 );
 
-//if (getenv('APPLICATION_ENV') == 'development') {
+define('APPLICATION_ENV', 'production');
+//define('APPLICATION_ENV',
+//(getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV')
+//    : 'production'));
+if (getenv('APPLICATION_ENV') == 'development') {
     $config['modules'] = array_merge($config['modules'], array(
         'Form',
         'Table',
@@ -71,5 +75,5 @@ $config = array(
         'SelectOptionTree',
         'StickyNotes'));
 //        'StrokerForm',
-//}
+}
 return $config;

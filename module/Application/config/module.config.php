@@ -129,7 +129,7 @@ return array(
         ),
     ),
     'module_listener_options' => array(
-            // The key used to create the configuration cache file name.
+        // The key used to create the configuration cache file name.
         'config_cache_key' => 'Application',
 
         // The key used to create the class map cache file name.
